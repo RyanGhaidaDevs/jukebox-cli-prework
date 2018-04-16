@@ -60,10 +60,10 @@ def run(arr)
 
     puts "Please enter a command:"
 
-    comm = gets.chomp
+    input = gets.chomp
 
-    case comm
-      
+    case input
+
       when "list"
       list(arr)
       when "help"
